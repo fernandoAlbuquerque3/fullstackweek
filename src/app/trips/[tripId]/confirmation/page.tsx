@@ -14,7 +14,7 @@ const TripConfirmation = ({ params }: { params: { tripId: string } }) => {
   const [trip, setTrip] = useState<Trip | null>()
   const [totalPrice, setTotalPrice] = useState<number>(0)
   const router = useRouter()
- 
+
   const { status } = useSession()
 
   const searchParams = useSearchParams()
@@ -29,19 +29,22 @@ const TripConfirmation = ({ params }: { params: { tripId: string } }) => {
           endDate: searchParams.get("endDate"),
         }),
       })
+      const res = await response.json()
 
-      const { trip, totalPrice } = await response.json()
+      if (res?.error) {
+        return router.push("/")
+      }
 
-      setTrip(trip)
-      setTotalPrice(totalPrice)
+      setTrip(res.trip)
+      setTotalPrice(res.totalPrice)
     }
 
-    if(status === 'unauthenticated') {
-      router.push('/');
+    if (status === "unauthenticated") {
+      router.push("/")
     }
 
     fetchTrip()
-  }, [status])
+  }, [status, searchParams, params, router])
 
   if (!trip) return null
 
