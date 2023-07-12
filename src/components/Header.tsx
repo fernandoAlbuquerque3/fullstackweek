@@ -22,10 +22,15 @@ const Header = () => {
 
   return (
     <div className="container mx-auto p-5 py-0 h-[93px]  flex justify-between items-center">
-      <Link href='/'>
-      <div className="relative h-[32px] w-[182]">
-        <Image width={183} height={32} src="/Logo.png" alt="Full stack week" />
-      </div>
+      <Link href="/">
+        <div className="relative h-[32px] w-[182]">
+          <Image
+            width={183}
+            height={32}
+            src="/Logo.png"
+            alt="Full stack week"
+          />
+        </div>
       </Link>
 
       {status === "unauthenticated" && (
@@ -53,9 +58,14 @@ const Header = () => {
           />
 
           {menuIsOpen && (
-            <div className="z-50 absolute top-14 left-0 w-full h-full bg-white rounded-ld shadow-md flex flex-col justify-center items-center">
+            <div className="z-50 absolute top-14 left-0 w-full h-[100px] bg-white rounded-ld shadow-md flex flex-col justify-center items-center">
+              <Link href="/my-trips">
+                <button className="text-primary text-sm font-semibold pb-2 border-b border-grayLighter border-solid">
+                  Minhas Viagens
+                </button>
+              </Link>
               <button
-                className="text-primary text-sm font-semibold"
+                className="text-primary text-sm font-semibold pt-2"
                 onClick={handleLogoutClick}
               >
                 Logout
