@@ -1,0 +1,215 @@
+[33mcommit 077ab809b3054c869b2e0fbf415ee49bb0261ccd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 14 16:52:24 2023 -0300
+
+    feat: add reservation cancel
+
+[33mcommit 0af1508026a746c325e1097644600c4426283303[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 13 15:10:40 2023 -0300
+
+    feat: add user reservations page
+
+[33mcommit 0e934ba97346018b0e1b8489b24b9a630c607cb6[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 12 18:49:12 2023 -0300
+
+    feat: add route to get user reservations
+
+[33mcommit 461dde586bf3ee89fd3a3458da1e461422526a14[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 11 22:08:39 2023 -0300
+
+    feat: add my trips button to header
+
+[33mcommit d82a2d5dff87f091825583763051ec71059de9e8[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 11 21:21:30 2023 -0300
+
+    feat: add trip buy
+
+[33mcommit ca3cb6f23fd12082722be5b7144d09d2c0a951a9[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 11 21:20:59 2023 -0300
+
+    feat: add new migration
+
+[33mcommit 3d73a91bc2c3088d2ba551e8bc39a53b52ebdced[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 11 15:52:52 2023 -0300
+
+    feat: ensure user is redirected on error in trip confirmation
+
+[33mcommit 5fdef755da4db85a3f40d60d092b55da1c3a16bb[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 11 15:44:56 2023 -0300
+
+    feat: add auth validation to trip confirmation
+
+[33mcommit 6ec40fda369a042f10031a4a23ee437853e5d260[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 11 15:28:51 2023 -0300
+
+    feat: add interface to trip confirmation
+
+[33mcommit 7411eef9e5088ce9732cfb69fd71a19c9029af97[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Mon Jul 10 15:14:04 2023 -0300
+
+    feat: add validation to guests input
+
+[33mcommit cffc3b3239efad29d900eb24be42d24e5b46eb9b[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Mon Jul 10 14:56:55 2023 -0300
+
+    feat: add more date validation
+
+[33mcommit fd385fa1d45a4531a44dc4604acde9d1968cdc0d[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 22:54:41 2023 -0300
+
+    feat: add total price to trip
+
+[33mcommit b7e9d5686f77f6d812afeb65fac803029c5de4e8[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 21:38:48 2023 -0300
+
+    feat: add date validation to trip reservations
+
+[33mcommit 659972b3a5249717b533614029b1ffaa2869ba81[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 21:06:49 2023 -0300
+
+    feat: add require validation to trip reservation
+
+[33mcommit a0b0b70d43cb104d7d79967520c9ef4d3932b5c3[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 17:56:31 2023 -0300
+
+    feat: add footer component
+
+[33mcommit 719b043f7c42a0d58bff25509c00de878e3d0466[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 16:58:58 2023 -0300
+
+    feat: add trip location component
+
+[33mcommit 31a39fc809decd3708fd1e0bb444bd3a8743a762[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 16:58:27 2023 -0300
+
+    feat: add button variant
+
+[33mcommit 2bab9a19dcbd0615ed20a7bb619f9d259f0cd353[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Fri Jul 7 16:57:58 2023 -0300
+
+    feat: add location description
+
+[33mcommit b0c365832e23e434267e518d10107eb1f2147427[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 08:58:56 2023 -0300
+
+    feat: add trip highlights components
+
+[33mcommit 69402c353863d61c5a488ab8decb6de7de106f2e[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 08:18:58 2023 -0300
+
+    feat: add trip description component
+
+[33mcommit 894fa05940480b4f003cc5891bd9d243138a5bcf[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 04:53:33 2023 -0300
+
+    style: add border to trip reservation component
+
+[33mcommit 0c518168aa2553402498fad156acaedb219f9c42[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 04:42:56 2023 -0300
+
+    feat: add trip reservation component
+
+[33mcommit 5537f655ea8cb6403f0336a648451ddd47783470[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 03:50:46 2023 -0300
+
+    feat: add initial trip details page and trip header
+
+[33mcommit 157ef98b8f8257ed5c32be68338bcd894dc86232[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 00:55:39 2023 -0300
+
+    feat: add recommended trips component
+
+[33mcommit f0d565c1de13fa5471b49ef6a453cc5a8ccf3b41[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Thu Jul 6 00:53:23 2023 -0300
+
+    feat: add trip item component
+
+[33mcommit 96f86e464333460e96aa6144843fdbb86ebfbbae[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 5 20:55:28 2023 -0300
+
+    feat: add seed script and new migration
+
+[33mcommit bd267389665b8a907160008ad85ea859612d893e[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 5 20:44:53 2023 -0300
+
+    feat: add seed script
+
+[33mcommit 5a01bb3f265d568cf5f9979a60f41595d5756d80[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 5 20:34:40 2023 -0300
+
+    feat: add quick search component
+
+[33mcommit 3bff326c1466f338de04fdabbf0443af472cf31b[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 5 19:40:27 2023 -0300
+
+    feat: add initial search trip
+
+[33mcommit 5d95634d05c94488f9112db6206c58beab06a2cd[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 5 17:34:46 2023 -0300
+
+    chore: add domains to next config
+
+[33mcommit 52ea008b049758079647a944c84d09ba40a62db6[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Wed Jul 5 17:33:44 2023 -0300
+
+    feat: add tailwind colors
+
+[33mcommit 0b0b6e0aae25351652a52cc3caf6194e3c61a1a4[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 4 23:06:09 2023 -0300
+
+    feat: add next auth provider
+
+[33mcommit 88ba7d90bd7cd94d93a26a32182c0eb36ef05eb3[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 4 21:54:45 2023 -0300
+
+    chore: add next auth prisma config
+
+[33mcommit 42172a9e3073159afd7d73a87da06584194dc231[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 4 20:47:55 2023 -0300
+
+    feat: update database schema
+
+[33mcommit edd1b8f529bdc42e50992d2bc5ed4b40a7f9ac8a[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Tue Jul 4 16:54:25 2023 -0300
+
+    initial-commit
+
+[33mcommit 07ca72b529b1986f8cd80c24a6f80c2759e2761c[m
+Author: fernando <fernandonetodeveloper@gmail.com>
+Date:   Mon Jul 3 22:06:40 2023 -0300
+
+    Initial commit from Create Next App

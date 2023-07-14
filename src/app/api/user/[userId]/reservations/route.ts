@@ -6,12 +6,14 @@ export async function GET(
   { params: { userId } }: { params: { userId: string } }
 ) {
   const { searchParams } = new URL(request.url)
+
   console.log({ userId })
+
   if (!userId) {
     return {
       status: 400,
       body: {
-        message: "Missing user id",
+        message: "Missing userId",
       },
     }
   }
@@ -24,6 +26,8 @@ export async function GET(
       trip: true,
     },
   })
+
+  console.log({ reservations })
 
   return new NextResponse(JSON.stringify(reservations), { status: 200 })
 }
