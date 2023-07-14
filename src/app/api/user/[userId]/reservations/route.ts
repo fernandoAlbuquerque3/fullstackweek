@@ -9,6 +9,7 @@ export async function GET(
 
   console.log({ userId })
 
+  console.log({userId});
   if (!userId) {
     return {
       status: 400,
